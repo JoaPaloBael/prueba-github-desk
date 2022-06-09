@@ -1,6 +1,28 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+}
+/*No es una buena practica usar !important*/
+.bg-primary {
+    background-color: rgb(240, 218, 48) !important;
 }
 
+/* .container-fluid{
+    background-color: bisque;
+} */
+
+.lead{
+    font-size: 2rem;
+}
+
+/* .form-control {
+    font-size: 2rem;
+} */
+
+.colorRojo{
+    background-color: darkred;
+}
+
+.navbar-brand {
+    color: azure;
+}
